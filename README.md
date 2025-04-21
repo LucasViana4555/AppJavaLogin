@@ -28,7 +28,15 @@ Bem-vindo ao **AppJavaLogin**! Um sistema moderno de login, cadastro e configura
 - **DAO Pattern** (Organização do código)
 - **NetBeans** (IDE principal)
 
+## 🌐 Links Úteis
 
+- [GitHub do Projeto](https://github.com/LucasViana4555/AppJavaLogin)
+- [readme.so (Editor de README)](https://readme.so)
+- [FlatLaf - Look and Feel moderno para Java Swing](https://www.formdev.com/flatlaf/)
+- [Documentação do SQLite](https://www.sqlite.org/docs.html)
+- [Curso de Java na Alura](https://www.alura.com.br/cursos-online-programacao/java)
+- [Canal Java no YouTube](https://www.youtube.com/results?search_query=java+swing+sqlite)
+---
 
 ## 🖼️ Imagem do projeto
 
