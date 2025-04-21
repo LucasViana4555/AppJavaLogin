@@ -28,7 +28,7 @@ Bem-vindo ao **AppJavaLogin**! Um sistema moderno de login, cadastro e configura
 - **DAO Pattern** (Organização do código)
 - **NetBeans** (IDE principal)
 
----
+
 
 ## 🖼️ Imagem do projeto
 
@@ -47,20 +47,15 @@ Bem-vindo ao **AppJavaLogin**! Um sistema moderno de login, cadastro e configura
 3. Rode a Main.java ou LoginScreen.java
 
 > O banco será criado automaticamente na pasta /data/users.db
-
-## 🧠 Organização
-AppJavaLogin/ ├── src/ │ ├── LoginScreen.java │ ├── CadastroScreen.java │ ├── WelcomeScreen.java │ ├── ConfigScreen.java │ ├── AppThemeManager.java │ ├── UserDataManager.java │ └── DBConnection.java ├── data/ │ └── users.db (gerado automaticamente) ├── imagens/ │ └── login.png (coloque suas imagens aqui) ├── README.md └── LICENSE
-
-
-
+---
 
 ## 🤝 Contribuição
 Pull requests são bem-vindos!
 Se tiver sugestões de melhorias ou quiser colaborar, bora fazer acontecer. 🚀
-
+---
 ## 📄 Licença
 
 Distribuído sob a Licença MIT. Veja [LICENSE](LICENSE) para mais detalhes.
-
+---
 
 ## 💜 Feito com amor por [LucasViana4555](https://github.com/LucasViana4555)
