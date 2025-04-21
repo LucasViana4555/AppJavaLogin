@@ -49,21 +49,9 @@ Bem-vindo ao **AppJavaLogin**! Um sistema moderno de login, cadastro e configura
 > O banco será criado automaticamente na pasta /data/users.db
 
 ## 🧠 Organização
-AppJavaLogin/
-├── src/
-│   ├── LoginScreen.java
-│   ├── CadastroScreen.java
-│   ├── WelcomeScreen.java
-│   ├── ConfigScreen.java
-│   ├── AppThemeManager.java
-│   ├── UserDataManager.java
-│   └── DBConnection.java
-├── data/
-│   └── users.db (gerado automaticamente)
-├── imagens/
-│   └── login.png (coloque suas imagens aqui)
-├── README.md
-└── LICENSE
+AppJavaLogin/ ├── src/ │ ├── LoginScreen.java │ ├── CadastroScreen.java │ ├── WelcomeScreen.java │ ├── ConfigScreen.java │ ├── AppThemeManager.java │ ├── UserDataManager.java │ └── DBConnection.java ├── data/ │ └── users.db (gerado automaticamente) ├── imagens/ │ └── login.png (coloque suas imagens aqui) ├── README.md └── LICENSE
+
+
 
 
 ## 🤝 Contribuição
