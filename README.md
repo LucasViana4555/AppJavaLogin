@@ -34,7 +34,7 @@ Bem-vindo ao **AppJavaLogin**! Um sistema moderno de login, cadastro e configura
 - [readme.so (Editor de README)](https://readme.so)
 - [FlatLaf - Look and Feel moderno para Java Swing](https://www.formdev.com/flatlaf/)
 - [Documentação do SQLite](https://www.sqlite.org/docs.html)
-- [Curso de Java na Alura](https://www.alura.com.br/cursos-online-programacao/java)
+- [Curso de Java (Gratuito) no YouTube - Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x)
 - [Canal Java no YouTube](https://www.youtube.com/results?search_query=java+swing+sqlite)
 ---
 
