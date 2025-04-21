@@ -40,7 +40,7 @@ Bem-vindo ao **AppJavaLogin**! Um sistema moderno de login, cadastro e configura
 
 1. Clone o repositório:
 ```bash```
-```bgit clone git@github.com:LucasViana4555/AppJavaLogin.git```
+```git clone git@github.com:LucasViana4555/AppJavaLogin.git```
 
 2. Abra o projeto no NetBeans ou IDE de sua preferência
 
@@ -51,18 +51,20 @@ Bem-vindo ao **AppJavaLogin**! Um sistema moderno de login, cadastro e configura
 ## 🧠 Organização
 AppJavaLogin/
 ├── src/
-│   ├── screens/
-│   │   ├── LoginScreen.java
-│   │   ├── CadastroScreen.java
-│   │   ├── ConfigScreen.java
-│   │   └── WelcomeScreen.java
-│   ├── dao/
-│   │   └── UserDataManager.java
-│   └── db/
-│       └── DBConnection.java
+│   ├── LoginScreen.java
+│   ├── CadastroScreen.java
+│   ├── WelcomeScreen.java
+│   ├── ConfigScreen.java
+│   ├── AppThemeManager.java
+│   ├── UserDataManager.java
+│   └── DBConnection.java
 ├── data/
 │   └── users.db (gerado automaticamente)
-└── README.md
+├── imagens/
+│   └── login.png (coloque suas imagens aqui)
+├── README.md
+└── LICENSE
+
 
 ## 🤝 Contribuição
 Pull requests são bem-vindos!
