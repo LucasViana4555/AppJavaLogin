@@ -1,0 +1,21 @@
+# Compiled class files
+*.class
+
+# NetBeans specific
+nbproject/private/
+build/
+dist/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# SQLite database
+data/*.db
