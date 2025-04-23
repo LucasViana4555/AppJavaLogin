@@ -9,8 +9,8 @@ public class CadastroScreen extends JFrame {
     private JPasswordField txtConfirmPassword;
 
     public CadastroScreen() {
-        AppThemeManager.register(this); // registra para futuras mudanças
-        SwingUtilities.updateComponentTreeUI(this); // aplica o tema atual
+        AppThemeManager.register(this);
+        SwingUtilities.updateComponentTreeUI(this); 
 
         setTitle("Cadastro de Usuário");
         setSize(400, 350);
@@ -74,7 +74,6 @@ public class CadastroScreen extends JFrame {
                 JOptionPane.showMessageDialog(this, "As senhas não coincidem!");
             } else {
                 try {
-                    // Aqui chamamos o método para salvar o usuário no banco de dados (SQLite)
                     UserDataManager.salvarUsuario(user, pass);
                     JOptionPane.showMessageDialog(this, "Usuário cadastrado com sucesso!");
                     dispose();
