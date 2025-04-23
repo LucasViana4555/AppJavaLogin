@@ -78,12 +78,11 @@ Image newImg = img.getScaledInstance(28, 28, Image.SCALE_SMOOTH);
 ImageIcon newIcon = new ImageIcon(newImg);
 
 JButton settingsButton = new JButton(newIcon);
-settingsButton.setBounds(535, 5, 48, 48); // Posição no canto superior direito da tela 600x400
+settingsButton.setBounds(535, 5, 48, 48); 
 settingsButton.setContentAreaFilled(false);
 settingsButton.setBorderPainted(false);
 settingsButton.setFocusPainted(false);
-
-// 👉 Abre a tela de configurações (ConfigScreen)
+        
 settingsButton.addActionListener(e -> {
     new ConfigScreen(username, this).setVisible(true);
     AppThemeManager.register(Window.getWindows()[Window.getWindows().length - 1]);
