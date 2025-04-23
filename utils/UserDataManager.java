@@ -3,7 +3,6 @@ import java.io.File;
 
 public class UserDataManager {
 
-    // Caminho do banco
     private static final String DB_URL = "jdbc:sqlite:data/users.db";
 
     // Criação da tabela, caso não exista
@@ -52,7 +51,7 @@ public class UserDataManager {
             pstmt.setString(1, usuario);
             pstmt.setString(2, senha);
             ResultSet rs = pstmt.executeQuery();
-            return rs.next();  // Se encontrar algum usuário, retorna true
+            return rs.next();  
         } catch (SQLException e) {
             System.out.println("Erro ao validar login: " + e.getMessage());
         }
