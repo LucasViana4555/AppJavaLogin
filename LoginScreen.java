@@ -84,7 +84,7 @@ public class LoginScreen extends JFrame {
         btnRegister.addActionListener(e -> {
             new CadastroScreen().setVisible(true);
             AppThemeManager.register(Window.getWindows()[Window.getWindows().length - 1]);
-            dispose(); // Fecha essa tela se quiser
+            dispose(); 
         });
 
         add(panel);
